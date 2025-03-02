@@ -1,0 +1,54 @@
+.campaigns .campaign-item {
+    position: relative; /* يجعل العنصر قابلاً لتحديد المواقع النسبية */
+    padding: 70px 35px;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    color: white;
+    overflow: hidden; /* يضمن أن الطبقة الشبه شفافة لا تتجاوز حدود العنصر */
+}
+.campaigns .campaign-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* لون أسود مع 50% شفافية */
+    z-index: 1; /* يجعل الطبقة فوق الصورة */
+}
+.campaigns .campaign-item * {
+    position: relative; /* يجعل النصوص فوق الطبقة الشبه شفافة */
+    z-index: 2; /* يجعل النصوص فوق الطبقة الشبه شفافة */
+}
+
+.campaigns .campaign-item .campaign-title {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    color: white; /* تأكد من أن لون النص أبيض */
+}
+
+.campaigns .campaign-item .campaign-desc {
+    margin: 40px 0;
+    font-size: 14px;
+    color: white; /* تأكد من أن لون النص أبيض */
+}
+
+.campaigns-wrapper:nth-child(1) .campaign-item:nth-child(1) {
+    background-image: url(../../img/campaigns/banner1.jpg);
+}
+
+.campaigns-wrapper:nth-child(1) .campaign-item:nth-child(2) {
+    background-image: url(../../img/campaigns/banner2.jpg);
+}
+
+.campaigns-wrapper:nth-child(2) .campaign-item:nth-child(1) {
+    background-image: url(../../img/campaigns/banner3.jpg);
+    flex: 5;
+}
+
+.campaigns-wrapper:nth-child(2) .campaign-item:nth-child(2) {
+    background-image: url(../../img/campaigns/banner4.jpg);
+    flex: 3;
+}

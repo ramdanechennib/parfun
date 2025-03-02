@@ -1,0 +1,85 @@
+[
+    {
+        "id": 1,
+        "name": "Analogue Resin Strap",
+        "price": {
+            "oldPrice": 160.00,
+            "newPrice": 108.00
+        },
+        "discount": 22,
+        "img": {
+            "singleImage": "img/products/perfume1/1.jpg",
+            "thumbs": [
+                "img/products/perfume1/1.jpg",
+                "img/products/perfume1/2.jpg"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ridley High Waist",
+        "price": {
+            "oldPrice": 265.00,
+            "newPrice": 208.00
+        },
+        "discount": 33,
+        "img": {
+            "singleImage": "img/products/perfume1/1.jpg",
+            "thumbs": [
+                "img/products/perfume1/1.jpg",
+                "img/products/perfume1/2.jpg"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "name": "Blush Beanie",
+        "price": {
+            "oldPrice": 105.00,
+            "newPrice": 67.00
+        },
+        "discount": 90,
+        "img": {
+            "singleImage": "img/products/perfume1/1.jpg",
+            "thumbs": [
+                "img/products/perfume1/1.jpg",
+                "img/products/perfume1/2.jpg",
+                "img/products/perfume1/3.jpg"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "name": "Mercury Tee",
+        "price": {
+            "oldPrice": 55.00,
+            "newPrice": 48.00
+        },
+        "discount": 40,
+        "img": {
+            "singleImage": "img/products/perfume1/1.jpg",
+            "thumbs": [
+                "img/products/perfume1/1.jpg",
+                "img/products/perfume1/2.jpg",
+                "img/products/perfume1/3.jpg"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "name": "La Bohème Rose Gold",
+        "price": {
+            "oldPrice": 78.00,
+            "newPrice": 48.00
+        },
+        "discount": 40,
+        "img": {
+            "singleImage": "img/products/perfume1/1.jpg",
+            "thumbs": [
+                "img/products/perfume1/1.jpg",
+                "img/products/perfume1/2.jpg",
+                "img/products/perfume1/3.jpg"
+            ]
+        }
+    }
+]
